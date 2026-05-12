@@ -1,4 +1,24 @@
-asgiref==3.11.1
-Django==6.0.4
-sqlparse==0.5.5
-tzdata==2026.2
+# Mi Primera Página Django
+
+Proyecto realizado en Django siguiendo patrón MVT.
+
+## Funcionalidades
+
+- Crear Autor
+- Crear Categoría
+- Crear Post
+- Buscar Post por título
+
+## URLs
+
+/autor/
+/categoria/
+/post/
+/buscar/
+
+## Instalación
+
+pip install -r requirements.txt
+
+python manage.py migrate
+python manage.py runserver
